@@ -1,8 +1,6 @@
 # blade
 
-[中文](https://github.com/Jamlee/blade/blob/master/README.CN.md)
-
 [![CodeFactor](https://www.codefactor.io/repository/github/jamlee/blade/badge)](https://www.codefactor.io/repository/github/jamlee/blade)
 [![Build Status](https://travis-ci.com/Jamlee/blade.svg?branch=master)](https://travis-ci.com/Jamlee/blade)
 
-balde is a fast and small microsrvice development kits.  
+balde 快速的、轻量级的微服务开发组件
