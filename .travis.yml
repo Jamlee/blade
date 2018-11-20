@@ -4,20 +4,20 @@ matrix:
     node_js:
       - "8"
     before_script:
-      - cd adminui
+      - cd admin-ui
     script:
       - ls
   - language: node_js
     node_js:
       - "8"
     before_script:
-      - cd mailbox
+      - cd mail-box
     script:
       - ls
   - language: node_js
     node_js:
       - "8"
     before_script:
-      - cd usermgt
+      - cd user-management
     script:
       - ls

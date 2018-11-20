@@ -11,8 +11,10 @@
   "license": "BSD",
   "dependencies": {
     "koa": "^2.5.3",
+    "mysql2": "^1.6.4",
     "oauth2orize": "^1.11.0",
-    "passport": "^0.4.0"
+    "passport": "^0.4.0",
+    "sequelize": "^4.41.2"
   },
   "devDependencies": {
     "eslint": "^5.7.0"
