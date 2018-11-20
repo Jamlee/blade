@@ -1,5 +1,5 @@
 {
-  "name": "auth",
+  "name": "user-management",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
