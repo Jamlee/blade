@@ -8,8 +8,8 @@ balde is a fast and powerful microsrvice development kits.
 
 ## modules
 
-module name     | description
-:-------------- | :-----------------------------------
-admin-ui        | admin control panel
-mail-box        | chat system
-user-management | user manager, login and OAuth2.0 api
+module name | description
+:---------- | :-----------------------------------
+panel       | admin control panel
+chat        | chat system
+oauth       | user manager, login and OAuth2.0 api
