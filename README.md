@@ -9,7 +9,7 @@ balde is a fast and powerful microsrvice development kits.
 ## modules
 
 module name     | description
---------------- | :-----------------------------------
+:-------------- | :-----------------------------------
 admin-ui        | admin control panel
 mail-box        | chat system
 user-management | user manager, login and OAuth2.0 api
