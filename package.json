@@ -1,0 +1,28 @@
+{
+  "name": "blade",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Jamlee/blade#readme",
+  "description": "the fast and simple microservice framework",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamlee/blade.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jamlee/blade/issues"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "node ./scripts/git/commit-msg.js -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
