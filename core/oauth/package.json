@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint src/**",
     "start": "node src/main.js"
   },
   "author": "",
