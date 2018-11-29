@@ -34,3 +34,11 @@ create table blade_token (
   `isExpired` tinyint(1) not null comment '是否过期'
 ) default character set=utf8;
 
+
+------------------------------------------------------------------------------
+--
+-- 默认初始化数据
+--
+------------------------------------------------------------------------------
+insert into blade_user(`id`, `username`, `passwordHash`, `avatar`, `email`, `emailVerfied`, `phone`, `phoneVerfied`, `sex`) \
+  value ('5f4b282f-91c9-4814-b755-98373ec9d940', 'admin', '__need__update__', '', 'admin@admin.com', 1, '+860000000000', 1, 1);
