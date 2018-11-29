@@ -13,3 +13,11 @@ module name | description
 panel       | admin control panel
 chat        | chat system
 oauth       | user manager, login and OAuth2.0 api
+
+
+## start service
+
+start oauth service
+```
+cd core/oauth && npm start
+```
