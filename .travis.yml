@@ -4,7 +4,14 @@ matrix:
     node_js:
       - "8"
     before_script:
-      - cd panel
+      - cd core/panel
+    script:
+      - ls
+  - language: node_js
+    node_js:
+      - "8"
+    before_script:
+      - cd core/oauth
     script:
       - ls
   - language: node_js
@@ -12,12 +19,5 @@ matrix:
       - "8"
     before_script:
       - cd chat
-    script:
-      - ls
-  - language: node_js
-    node_js:
-      - "8"
-    before_script:
-      - cd oauth
     script:
       - ls
