@@ -18,8 +18,5 @@
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "sequelize": "^4.41.2"
-  },
-  "devDependencies": {
-    "eslint": "^5.7.0"
   }
 }

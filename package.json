@@ -6,6 +6,8 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-plugin-prettier": "^3.0.0",
     "husky": "^1.2.0"
   },
   "scripts": {

@@ -1,4 +1,4 @@
-const Sequelize = require('sequelize');
+const Sequelize = require('sequelize')
 const sequelize = new Sequelize('database', process.env.DB_USER, process.env.DB_PASS, {
   host: process.env.DB_HOST,
   dialect: 'mysql',
@@ -10,4 +10,4 @@ const sequelize = new Sequelize('database', process.env.DB_USER, process.env.DB_
   },
   // http://docs.sequelizejs.com/manual/tutorial/querying.html#operators
   operatorsAliases: false
-});
+})
