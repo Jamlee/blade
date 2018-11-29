@@ -15,7 +15,6 @@
     "revert"
   ],
   "scopes": [
-    "showcase",
     "packaging",
     "changelog",
     "schematics",

@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 // from https://github.com/angular/angular/blob/master/scripts/git/commit-msg.js
 
 'use strict';
@@ -14,7 +13,7 @@ if (msgFile || true) {
     const firstLine = commitMsg.split('\n')[0];
     isValid = checkMsg(firstLine);
     if (!isValid) {
-        console.error('\x1b[36mCheck CONTRIBUTING.md at the root of the repo for more information.(请查看根目录下的 CONTRIBUTING.md 获取更多信息)\x1b[0m\n');
+        console.error('\x1b[36mCheck CONTRIBUTING.md at the root of the repo for more information\x1b[0m\n');
     }
 }
 
