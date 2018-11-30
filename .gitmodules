@@ -1,5 +1,5 @@
 [submodule "core/component"]
 	path = core/component
-	url = https://github.com/Jamlee/element.ait
+	url = https://github.com/Jamlee/element.git
  	branch = blade-component
 
