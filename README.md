@@ -10,12 +10,13 @@ balde is a fast and powerful microsrvice development kits.
 
 ## modules
 
-module name | description
-:---------- | :-----------------------------------
-panel       | admin control panel
-chat        | chat system
-oauth       | user manager, login and OAuth2.0 api
-
+| module name    | description                                    |
+| :------------- | :--------------------------------------------- |
+| core/panel     | admin control panel                            |
+| core/chat      | chat system                                    |
+| core/oauth     | user manager, login and OAuth2.0's backend api |
+| core/login     | user login page for oauth2.0                   |
+| core/component | ui component                                   |
 
 ## start service
 
